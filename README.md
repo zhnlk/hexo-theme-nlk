@@ -36,6 +36,15 @@ source
 
 就应该是具体的主题布局之类的东西了,hexo主题用的是ejs模板
 
+其中包含/_partial与若干ejs
+archive.ejs,category.ejs,index.ejs,tag.ejs ==> _partial/archive
+page.ejs,post.ejs ==> _partial/article
+layout.ejs
+plugins.swig
+
+ok 先从archive 开始看起
+
+
 
 
 **source**
